@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  overflow: hidden;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* tag */
+
+button {
+  background: none;
+  border: none;
+}
+
+h1 {
+  font-weight: 400;
+  margin: 0;
+}
+
+input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid white;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+input[type="submit"] {
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+/* class */
+
+.clock {
+  margin-top: 17%;
+  font-size: 7rem;
+  font-weight: bolder;
+}
+
+.hidden {
+  display: none;
+}
+
+.quote > span + span {
+  color: gray;
+}
+
+.nameInput {
+  font-size: large;
+}
+
+.todoInput {
+  margin-top: 1rem;
+  width: 17rem;
+}
